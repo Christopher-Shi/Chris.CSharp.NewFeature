@@ -21,15 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.CSharp.NewFeature.Rec
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 仅限 Init 的资源库", "02 仅限 Init 的资源库", "{617D9CDE-CB2A-4FE5-AFF7-EF1C22DB42C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chris.CSharp.NewFeature.Init", "Chris.CSharp.NewFeature.Init\Chris.CSharp.NewFeature.Init.csproj", "{E5A6B10B-438D-488A-BCFD-C6D07583C05E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.CSharp.NewFeature.Init", "Chris.CSharp.NewFeature.Init\Chris.CSharp.NewFeature.Init.csproj", "{E5A6B10B-438D-488A-BCFD-C6D07583C05E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 顶级语句", "03 顶级语句", "{5B09C807-5427-4A5E-91F8-3E4CFE51234F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chris.CSharp.NewFeature.TopLevelStatements", "Chris.CSharp.NewFeature.TopLevelStatements\Chris.CSharp.NewFeature.TopLevelStatements.csproj", "{BA20C980-430D-4B2C-A9E4-0E3A79D5D88E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.CSharp.NewFeature.TopLevelStatements", "Chris.CSharp.NewFeature.TopLevelStatements\Chris.CSharp.NewFeature.TopLevelStatements.csproj", "{BA20C980-430D-4B2C-A9E4-0E3A79D5D88E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 模式匹配增强", "04 模式匹配增强", "{9D061E7C-C2F8-4C07-9BFF-180D744D5873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chris.CSharp.NewFeature.PatternMatch", "Chris.CSharp.NewFeature.PatternMatch\Chris.CSharp.NewFeature.PatternMatch.csproj", "{509D32F8-A4E3-4269-942A-E111FF2084BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.CSharp.NewFeature.PatternMatch", "Chris.CSharp.NewFeature.PatternMatch\Chris.CSharp.NewFeature.PatternMatch.csproj", "{509D32F8-A4E3-4269-942A-E111FF2084BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 增强的 foreach", "05 增强的 foreach", "{B2869297-9F54-41E7-8F2C-52317357136D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chris.CSharp.NewFeature.Foreach", "Chris.CSharp.NewFeature.Foreach\Chris.CSharp.NewFeature.Foreach.csproj", "{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +117,18 @@ Global
 		{509D32F8-A4E3-4269-942A-E111FF2084BF}.Release|x64.Build.0 = Release|Any CPU
 		{509D32F8-A4E3-4269-942A-E111FF2084BF}.Release|x86.ActiveCfg = Release|Any CPU
 		{509D32F8-A4E3-4269-942A-E111FF2084BF}.Release|x86.Build.0 = Release|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Debug|x64.Build.0 = Debug|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Debug|x86.Build.0 = Debug|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Release|x64.ActiveCfg = Release|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Release|x64.Build.0 = Release|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Release|x86.ActiveCfg = Release|Any CPU
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +146,8 @@ Global
 		{BA20C980-430D-4B2C-A9E4-0E3A79D5D88E} = {5B09C807-5427-4A5E-91F8-3E4CFE51234F}
 		{9D061E7C-C2F8-4C07-9BFF-180D744D5873} = {F61259F0-B9D2-42AB-A420-F82C4464EE72}
 		{509D32F8-A4E3-4269-942A-E111FF2084BF} = {9D061E7C-C2F8-4C07-9BFF-180D744D5873}
+		{B2869297-9F54-41E7-8F2C-52317357136D} = {F61259F0-B9D2-42AB-A420-F82C4464EE72}
+		{7E726A1C-24F3-40CA-AFE3-ABB2205A11F4} = {B2869297-9F54-41E7-8F2C-52317357136D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD7B074D-7A9F-4CDD-A80E-4FA2843072E7}
