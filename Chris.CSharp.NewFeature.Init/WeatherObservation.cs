@@ -2,7 +2,7 @@
 
 namespace Chris.CSharp.NewFeature.Init
 {
-    public struct WeatherObservation
+    public class WeatherObservation
     {
         public DateTime RecordedAt { get; init; }
         public decimal TemperatureInCelsius { get; init; }
